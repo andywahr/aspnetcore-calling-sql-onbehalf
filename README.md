@@ -1,6 +1,6 @@
-# aspnetcore-calling-sql-onbehalf
+# Calling Azure SQL On Behalf of user in an Azure Active Directory Website (.Net Core 3.1)
 
-This sample shows how to call Azure SQL passing thru the logged in user's credentials (user_impersonation) [aka the [On Behalf Flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow)].  This is the Azure AD versions of Windows Impersonation. This sample is ASP.NET Core 3.1. 
+This sample shows how to call Azure SQL passing thru the logged in user's credentials (user_impersonation) [aka the [On Behalf Flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow)].  This is the Azure AD versions of Windows Impersonation. This sample is ASP.Net Core 3.1. 
 
 There are 2 different examples:
 - Using the older style with ConfidentialClientApplicationBuilder
