@@ -6,6 +6,10 @@ There are 2 different examples:
 - Using the older style with ConfidentialClientApplicationBuilder
 - The Pre-release version of the new [Microsoft.Identity.Web](https://github.com/AzureAD/microsoft-identity-web) library
   - Need to specify the Conditional Complication symbol:  `newMSAL`
+  
+## Important Files
+- [Startup.cs](WebSite/Startup.cs) - Focus on the block starting with `#if newMSAL`
+- [HomeController.cs - Calling SQL](WebSite/Controllers/HomeController.cs)
 
 ## Prerequisites
 - Register your application as [Azure Active Directory Application](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)
